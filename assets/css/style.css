@@ -1,0 +1,34 @@
+body {
+    background-color: lightskyblue;
+}
+
+header {
+    background-color: darkblue;
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+h1 {
+    color: yellow;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+ul {
+    text-align: center;
+}
+
+nav li {
+    text-align: center;    
+    display: inline-block;
+    list-style: none;
+    margin-right: 45px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: yellow;
+     font-size: 20px;   
+}
