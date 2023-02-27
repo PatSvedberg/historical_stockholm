@@ -8,6 +8,10 @@ header {
     padding: 10px 0 10px 0;
 }
 
+a:link {
+    text-decoration: none;
+  }
+
 h1 {
     color: yellow;
     text-transform: uppercase;
@@ -31,4 +35,14 @@ nav a {
     text-decoration: none;
     color: yellow;
      font-size: 20px;   
+}
+
+#index_main_section {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 50%;
+    height:auto;
+    margin: 30px auto 0;
+    padding-top: 30px;
 }
