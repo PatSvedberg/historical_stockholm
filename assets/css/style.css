@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Lato:wght@300&family=Martel:wght@300&family=Oswald&family=Pragati+Narrow:wght@700&display=swap');
+
 body {
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 51%, rgba(0,158,255,1) 100%);
     background-attachment: fixed;
@@ -7,6 +9,7 @@ header {
     background-color: #020024;
     width: 100%;
     padding: 10px 0 10px 0;
+    font-family: 'Pragati Narrow', sans-serif;
 }
 
 a:link {
@@ -17,7 +20,12 @@ h1 {
     color: yellow;
     text-transform: uppercase;
     text-align: center;
-    
+    font-family: 'Pragati Narrow', sans-serif;
+    font-size: 65px;    
+}
+h2 {
+    font-family: 'Average Sans', sans-serif;
+    font-size: 35px
 }
 
 ul {
@@ -37,13 +45,38 @@ nav a {
     color: yellow;
      font-size: 20px;   
 }
+nav a:hover {
+    border-bottom: 1px solid yellow;
+}
+#welcome-text {
+    text-align: center;
+    color: yellow;
+    font-size: medium;
+    font-family: 'Martel', serif;
+    font-size: 25px
+}
 
 #index_main_section {
-    border-style: solid;
-    border-color: yellow;
-    border-width: 1px;
-    width: 50%;
+    width: 65%;
     height:auto;
     margin: 30px auto 0;
     padding-top: 30px;
+    background-color: black;
+    opacity: 0.75;
 }
+
+/* Google map */
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 659px;
+    width: 998px;
+    margin: 50px auto;
+}
+
+.mapouter {
+    height:659; width:100%; display:inline-block; overflow:hidden;
+    
+}
+
