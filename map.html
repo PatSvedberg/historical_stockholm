@@ -22,30 +22,59 @@
         <nav>
             <ul>
                 <li>
-                    <a href="index.html"><h2>About</h2></a>
+                    <a href="index.html">
+                        <h2>About</h2>
+                    </a>
                 </li>
                 <li>
-                    <a href="map.html" class="active"><h2>Map</h2></a>
+                    <a href="map.html" class="active">
+                        <h2>Map</h2>
+                    </a>
                 </li>
                 <li>
-                    <a href="#"><h2>Museums</h2></a>
+                    <a href="#">
+                        <h2>Museums</h2>
+                    </a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <section>
-
+    <section class="map-and-message">
         <div class="mapouter">
-            <div class="gmap_canvas"><iframe
-                    src="https://www.google.com/maps/d/u/0/embed?mid=1-MSDKFTnZXzMaICj5lUgXK6okBKO9cc&ehbc=2E312F"
-                    width="998" height="659"></iframe><a href="https://123movies-i.net">123movies</a><br>
-                <a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
-
-            </div>
+          <div class="gmap_canvas">
+            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1-MSDKFTnZXzMaICj5lUgXK6okBKO9cc&ehbc=2E312F" width="998" height="659"></iframe>
+          </div>
         </div>
+        <div class="inputbox">
+          <h2>Is the map missing something?</h2><br>
+          <p>Tell us what, and we will look into it!</p><br>
+      
+          <form>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="message">Your message:</label>
+            <input type="text" id="message" name="textarea" id="messagebox">
+          </form>
+        </div>
+      </section>
 
-    </section>
+    <footer>
+        <ul class="social-networks">
+            <a href="https://facebook.com" target="_blank" rel="noopener"
+                aria-label="Visit out Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank" rel="noopener"
+                aria-label="Visit out Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://youtube.com" target="_blank" rel="noopener"
+                aria-label="Visit out Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener"
+                aria-label="Visit out Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+        </ul>
+    </footer>
+    <!-- font awesome script-->
+    <script src="https://kit.fontawesome.com/64b43d00b6.js" crossorigin="anonymous"></script>
 
 </body>
 

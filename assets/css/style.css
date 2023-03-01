@@ -104,7 +104,7 @@ nav a:hover {
     padding: 50px;
     right: 25px;
     margin-bottom: 100px;
-    
+
 
 }
 
@@ -118,7 +118,6 @@ nav a:hover {
     border-radius: 50%;
     margin: 20px;
     shape-outside: circle()
-    
 }
 
 .find-us-map iframe {
@@ -178,22 +177,43 @@ h2 {
 
 
 /* Google map */
-
-.gmap_canvas {
-    overflow: hidden;
-    background: none !important;
+.map-and-message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .mapouter {
     height: 659px;
-    width: 998px;
-    margin: 50px auto;
-}
-
-.mapouter {
-    height: 659;
+    width: 50%;
+    padding: 50px
+  }
+  
+  .inputbox {
+    background-color: #b8973d;
+    width: 600px;
+    height: 500px;
+    margin-right: 900px;
+  }
+  .inputbox h2, p {
+    margin-left: 20px;
+  }
+  
+  label, input {
+    display: block;
+    margin: 10px 0;
+    margin-left: 20px;
+  }
+  #messagebox textarea {
     width: 100%;
-    display: inline-block;
-    overflow: hidden;
-
-}
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
 
 /* Footer */
 
