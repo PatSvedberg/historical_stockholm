@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Lato:wght@300&family=Martel:wght@300&family=Oswald&family=Pragati+Narrow:wght@700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-image: url(../images/stockholm-cafe.jpg);
     background-repeat: no-repeat;
@@ -45,17 +50,12 @@ nav a {
 }
 
 nav a:hover {
-    border-bottom: 1px solid yellow;
+    border-bottom: 3px solid black !important;
 }
+
+
 
 /*Circle hero image and text */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .hero-section {
     position: relative;
     width: 100%;
@@ -90,10 +90,66 @@ nav a:hover {
     margin-top: 100px;
     margin-bottom: 20px;
     margin-right: 800px;
-    padding: 20px 800px 20px 0px;
+    margin-left: 200px;
+    padding: 20px 100px 20px 0px;
     background-color: #b8973d;
-    width: 100%
+    width: 50%
 }
+
+/* Contact */
+
+.find-section {
+    position: absolute;
+    width: 100%;
+    padding: 50px;
+    right: 25px;
+    margin-bottom: 100px;
+    
+
+}
+
+.find-us-map {
+    position: relative;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    float: right;
+    border: #b8973d solid 10px;
+    border-radius: 50%;
+    margin: 20px;
+    shape-outside: circle()
+    
+}
+
+.find-us-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+
+}
+
+#contact-div {
+    margin-left: 300px;
+    position: relative;
+    left: 50px
+}
+
+.find-section p {
+    text-align: left;
+    background-color: #b8973d;
+    width: 250px;
+    float: right;
+    margin-top: 100px;
+    margin-left: 200px;
+    padding: 10px 20px 10px 20px;
+    z-index: -1;
+}
+
+/*Nav links*/
 
 
 a:link {
@@ -150,6 +206,7 @@ footer {
     margin-left: 0;
     margin-right: 0;
 }
+
 footer i {
     color: black;
     font-size: 150%;
