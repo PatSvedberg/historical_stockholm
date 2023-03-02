@@ -81,8 +81,8 @@ nav a:hover {
 .hero-image {
     position: relative;
     overflow: hidden;
-    width: 800px;
-    height: 800px;
+    width: 30vw;
+    height: 30vw;
     float: left;
     border: #b8973d solid 20px;
     border-radius: 50%;
@@ -107,7 +107,7 @@ nav a:hover {
     margin-left: 200px;
     padding: 20px 100px 20px 0px;
     background-color: #b8973d;
-    width: 50%;
+    width: 50%
 }
 
 
@@ -151,20 +151,21 @@ h1 #logo {
 .mapouter {
     position: relative;
     overflow: hidden;
-    width: 950px;
-    height: 950px;
+    width: 25vw;
+    height: 25vw;
+    margin-left: 2.5vw;
+    margin-top: 5vw;
     float: left;
     border: #b8973d solid 20px;
     border-radius: 50%;
-    margin: 20px;
     shape-outside: circle();
 }
 
 .map-and-message .inputbox {
     background-color: #b8973d;
-    width: 600px;
-    height: 500px;
-    margin-right: 900px;
+    width: 20vw;
+    height: 15vw;
+    margin-right: 50vw;
 }
 
 .inputbox h2,
@@ -321,8 +322,8 @@ footer {
     background-color: #b8973d;
     position: fixed;
     bottom: 0px;
-    width: 100%;
-    height: 150px;
+    width: 100vw;
+    height: 10vw;
     margin-left: 0;
     margin-right: 0;
 }
@@ -331,4 +332,65 @@ footer i {
     color: black;
     font-size: 150%;
     padding: 2.5%;
+    padding: 0 2.5% 0 2.5%;
+}
+
+
+/* Media Querries */
+
+@media screen and (max-width: 390px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+    header {
+        height: 70px;
+        width: 100%;
+    }
+    nav {
+        margin-top: 15px;
+    }
+
+    /*Circle hero image and text */
+.hero-section {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+.hero-image {
+    position: relative;
+    overflow: hidden;
+    width: 30vw;
+    height: 30vw;
+    border: #b8973d solid 7px;
+    border-radius: 50%;
+    margin: 2px;
+    shape-outside: circle();
+}
+
+.hero-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-section p {
+    text-align: center;
+    padding: 20px 100px 20px 0px;
+    background-color: #b8973d;
+    width: 50%;
+    margin: auto;
+    margin-right: 5px;
+    font-size: 0.75rem;
+}
 }
