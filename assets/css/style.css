@@ -96,46 +96,7 @@ nav a:hover {
     width: 50%
 }
 
-/* Contact */
 
-.find-section {
-    position: absolute;
-    width: 100%;
-    padding: 50px;
-    right: 25px;
-    margin-bottom: 100px;
-
-
-}
-
-.find-us-map {
-    position: relative;
-    overflow: hidden;
-    width: 250px;
-    height: 250px;
-    float: right;
-    border: #b8973d solid 10px;
-    border-radius: 50%;
-    margin: 20px;
-    shape-outside: circle()
-}
-
-.find-us-map iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 1;
-
-}
-
-#contact-div {
-    margin-left: 300px;
-    position: relative;
-    left: 50px
-}
 
 .find-section p {
     text-align: left;
@@ -181,30 +142,34 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  .mapouter {
+}
+
+.mapouter {
     height: 659px;
     width: 50%;
     padding: 50px
-  }
-  
-  .inputbox {
+}
+
+.inputbox {
     background-color: #b8973d;
     width: 600px;
     height: 500px;
     margin-right: 900px;
-  }
-  .inputbox h2, p {
+}
+
+.inputbox h2,
+p {
     margin-left: 20px;
-  }
-  
-  label, input {
+}
+
+label,
+input {
     display: block;
     margin: 10px 0;
     margin-left: 20px;
-  }
-  #messagebox textarea {
+}
+
+#messagebox textarea {
     width: 100%;
     height: 150px;
     padding: 12px 20px;
@@ -213,7 +178,132 @@ h2 {
     border-radius: 4px;
     background-color: #f8f8f8;
     resize: none;
-  }
+}
+
+
+
+/*Museums */
+.museum-left-sec {
+    position: relative;
+    width: 100%;
+    padding: 50px;
+    margin-top: 20px;
+
+}
+
+.museum-left-div {
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+    float: left;
+    border: #b8973d solid 20px;
+    border-radius: 50%;
+    margin: 20px;
+    shape-outside: circle()
+}
+
+.museum-left-div img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.museum-left-sec p {
+    text-align: justify;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-right: 800px;
+    margin-left: 200px;
+    padding: 20px 100px 20px 0px;
+    background-color: #b8973d;
+    width: 50%;
+}
+
+/* Bottom museum */
+
+.museum-bottom-sec {
+    position: relative;
+    width: 100%;
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 250px;
+
+}
+
+.museum-bottom-div {
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+    float: left;
+    border: #b8973d solid 20px;
+    border-radius: 50%;
+    margin: 20px;
+    shape-outside: circle()
+}
+
+.museum-bottom-div img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.museum-bottom-sec p {
+    text-align: justify;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-right: 800px;
+    margin-left: 200px;
+    padding: 20px 100px 20px 0px;
+    background-color: #b8973d;
+    width: 50%;
+}
+
+/* Contact */
+
+.find-section {
+    position: absolute;
+    width: 100%;
+    padding: 50px;
+    right: 25px;
+    margin-bottom: 100px;
+}
+
+.find-us-map {
+    position: relative;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    float: right;
+    border: #b8973d solid 10px;
+    border-radius: 50%;
+    margin: 20px;
+    shape-outside: circle();
+}
+
+.find-us-map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+
+}
+
+#contact-div {
+    margin-left: 300px;
+    position: relative;
+    left: 50px
+}
 
 /* Footer */
 
