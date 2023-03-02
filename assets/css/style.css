@@ -16,6 +16,20 @@ body {
     background-color: #b8973d;
 }
 
+h1 {
+    font-size: 300%;
+    font-family: 'Pragati Narrow', sans-serif;
+
+}
+
+h2 {
+    font-size: 1.5 rem;
+    font-family: 'Average Sans', sans-serif;
+}
+
+p {
+    font-size: 1.25 rem;
+}
 
 /* Header and Nav */
 
@@ -46,7 +60,7 @@ nav li {
 nav a {
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 85%;
 }
 
 nav a:hover {
@@ -73,7 +87,7 @@ nav a:hover {
     border: #b8973d solid 20px;
     border-radius: 50%;
     margin: 20px;
-    shape-outside: circle()
+    shape-outside: circle();
 }
 
 .hero-image img {
@@ -93,7 +107,7 @@ nav a:hover {
     margin-left: 200px;
     padding: 20px 100px 20px 0px;
     background-color: #b8973d;
-    width: 50%
+    width: 50%;
 }
 
 
@@ -124,19 +138,9 @@ h1 #logo {
     color: black;
     text-align: center;
     text-transform: uppercase;
-    font-family: 'Pragati Narrow', sans-serif;
-    font-size: 45px;
+
     height: 25px
 }
-
-h2 {
-    font-family: 'Average Sans', sans-serif;
-    font-size: 20px
-}
-
-
-
-
 /* Google map */
 .map-and-message {
     display: flex;
@@ -145,12 +149,18 @@ h2 {
 }
 
 .mapouter {
-    height: 659px;
-    width: 50%;
-    padding: 50px
+    position: relative;
+    overflow: hidden;
+    width: 950px;
+    height: 950px;
+    float: left;
+    border: #b8973d solid 20px;
+    border-radius: 50%;
+    margin: 20px;
+    shape-outside: circle();
 }
 
-.inputbox {
+.map-and-message .inputbox {
     background-color: #b8973d;
     width: 600px;
     height: 500px;
