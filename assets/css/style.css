@@ -1,3 +1,4 @@
+/*Font import*/
 @import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Lato:wght@300&family=Martel:wght@300&family=Oswald&family=Pragati+Narrow:wght@700&display=swap');
 
 * {
@@ -13,7 +14,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #b8973d;
+    background-color: white;
 }
 
 h1 {
@@ -34,62 +35,72 @@ p {
 /* Header and Nav */
 
 header {
-    background-color: white;
+    background-color: #b8973d;
     width: 100%;
     height: 115px;
     font-family: 'Pragati Narrow', sans-serif;
-    background-color: #b8973d;
-}
-
-ul {
-    text-align: center;
-}
-
-nav {
-    margin-top: 50px;
-}
-
-nav li {
-    text-align: center;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    margin-top: 20px;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav li {
     list-style: none;
     margin-right: 45px;
-
-}
-
-nav a {
+  }
+  
+  nav a {
     text-decoration: none;
     color: black;
     font-size: 85%;
-}
-
-nav a:hover {
+  }
+  
+  nav a:hover {
     border-bottom: 3px solid black !important;
-}
-
+  }
+  
 
 
 /*Circle hero image and text */
 .hero-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
-    align-items: center;
-    margin: 50px 0px 0px 50px;
+    position: relative;
+    width: 100%;
+    padding: 50px;
+    margin-top: 20px;
 
 }
 
 .hero-image {
     position: relative;
     overflow: hidden;
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
+    float: left;
     border: #b8973d solid 20px;
     border-radius: 50%;
-    shape-outside: circle();
+    margin: 20px;
+    shape-outside: circle()
 }
 
 .hero-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -97,23 +108,13 @@ nav a:hover {
 
 .hero-section p {
     text-align: justify;
-    background-color: #b8973d;
-    width: 800px;
-    height: auto;
-    padding: 20px;
-}
-
-
-
-.find-section p {
-    text-align: left;
-    background-color: #b8973d;
-    width: 250px;
-    float: right;
     margin-top: 100px;
+    margin-bottom: 20px;
+    margin-right: 800px;
     margin-left: 200px;
-    padding: 10px 20px 10px 20px;
-    z-index: -1;
+    padding: 20px 100px 20px 0px;
+    background-color: #b8973d;
+    width: 50%;
 }
 
 /*Nav links*/
@@ -134,7 +135,6 @@ h1 #logo {
 
     height: 25px
 }
-
 /* Google map */
 .map-and-message {
     display: flex;
@@ -272,63 +272,69 @@ input {
 }
 
 /* Contact */
-
+  
 .find-section {
-    position: absolute;
-    width: 100%;
+    right: 100px;
     padding: 50px;
-    right: 25px;
-    margin-bottom: 100px;
-}
-
-.find-us-map {
+  }
+  
+  .find-us-map {
     position: relative;
     overflow: hidden;
     width: 250px;
     height: 250px;
-    float: right;
     border: #b8973d solid 10px;
     border-radius: 50%;
-    margin: 20px;
     shape-outside: circle();
-}
-
-.find-us-map iframe {
+    margin-left: 20px;
+    float: right;
+  }
+  
+  .find-us-map iframe {
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: 1;
+  }
 
-}
-
-#contact-div {
-    margin-left: 300px;
+  #contact-div {
     position: relative;
-    left: 50px
+    margin-top: 75px;
+    float: right;
+    left: 55px;
+    z-index: -1;
+  }
+  
+  .find-section p {
+    text-align: left;
+    background-color: #b8973d;
+    width: 300px;
+    padding: 10px 20px 10px 20px;
 }
+  
 
 /* Footer */
 
 footer {
     background-color: #b8973d;
     position: fixed;
-    bottom: 0px;
-    width: 100vw;
-    height: 10vw;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-footer i {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    bottom: 0;
+    width: 100%;
+    height: 65px;
+  }
+  
+  footer i {
     color: black;
     font-size: 150%;
-    padding: 2.5%;
-    padding: 0 2.5% 0 2.5%;
-}
-
+    display: flex;
+    gap: 20px; /* add a gap of 10px between the icons */
+    align-items: center;
+  }
+  
+  
 
 /* Media Querries */
 
@@ -341,52 +347,50 @@ footer i {
     h2 {
         font-size: 1rem;
     }
-
     header {
         height: 70px;
         width: 100%;
     }
-
     nav {
         margin-top: 15px;
     }
 
     /*Circle hero image and text */
-    .hero-section {
-        position: relative;
-        width: 100%;
-        padding: 20px;
-        margin-top: 20px;
+.hero-section {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
 
-    }
+}
 
-    .hero-image {
-        position: relative;
-        overflow: hidden;
-        width: 30vw;
-        height: 30vw;
-        border: #b8973d solid 7px;
-        border-radius: 50%;
-        margin: 2px;
-        shape-outside: circle();
-    }
+.hero-image {
+    position: relative;
+    overflow: hidden;
+    width: 30vw;
+    height: 30vw;
+    border: #b8973d solid 7px;
+    border-radius: 50%;
+    margin: 2px;
+    shape-outside: circle();
+}
 
-    .hero-image img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
+.hero-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
-    .hero-section p {
-        text-align: center;
-        padding: 20px 100px 20px 0px;
-        background-color: #b8973d;
-        width: 50%;
-        margin: auto;
-        margin-right: 5px;
-        font-size: 0.75rem;
-    }
+.hero-section p {
+    text-align: center;
+    padding: 20px 100px 20px 0px;
+    background-color: #b8973d;
+    width: 50%;
+    margin: auto;
+    margin-right: 5px;
+    font-size: 0.75rem;
+}
 }
