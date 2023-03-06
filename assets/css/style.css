@@ -36,39 +36,33 @@ p {
 
 header {
     background-color: #b8973d;
-    width: 100%;
-    height: 115px;
     font-family: 'Pragati Narrow', sans-serif;
+    width: 100%;
+    height: 120px;
+    border-bottom: 2px solid black;
+    }
+    
+    #logo h1 {
+    text-align: center;
+    }
+    
+    nav ul {
     display: flex;
-    flex-direction: column;
+    gap: 45px;
     justify-content: center;
-    align-items: center;
-}
-
-h1 {
-    margin-bottom: 10px;
-}
-
-ul {
-    margin-top: 20px;
+    margin: 0;
     padding: 0;
-    display: flex;
-}
-
-nav {
-    margin-top: 20px;
-}
-
-nav li {
+    }
+    
+    nav li {
     list-style: none;
-    margin-right: 45px;
-}
-
-nav a {
+    }
+    
+    nav a {
     text-decoration: none;
     color: black;
     font-size: 85%;
-}
+    }
 
 nav a:hover {
     border-bottom: 3px solid black !important;
