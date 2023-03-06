@@ -40,29 +40,29 @@ header {
     width: 100%;
     height: 120px;
     border-bottom: 2px solid black;
-    }
-    
-    #logo h1 {
+}
+
+#logo h1 {
     text-align: center;
-    }
-    
-    nav ul {
+}
+
+nav ul {
     display: flex;
     gap: 45px;
     justify-content: center;
     margin: 0;
     padding: 0;
-    }
-    
-    nav li {
+}
+
+nav li {
     list-style: none;
-    }
-    
-    nav a {
+}
+
+nav a {
     text-decoration: none;
     color: black;
     font-size: 85%;
-    }
+}
 
 nav a:hover {
     border-bottom: 3px solid black !important;
@@ -207,7 +207,8 @@ input[type=submit] {
     flex-direction: row;
     align-items: center;
     justify-items: center;
-    margin: 85px 0px 150px 0px; /*Space between museum divs */
+    margin: 85px 0px 150px 0px;
+    /*Space between museum divs */
 }
 
 .museum-image {
@@ -218,13 +219,13 @@ input[type=submit] {
     border: #b8973d solid 20px;
     border-radius: 50%;
 }
+
 .museum-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
     object-position: center;
-  }
-  
+}
+
 
 
 .museum-text {
@@ -309,6 +310,7 @@ footer i {
     /* add a gap of 10px between the icons */
     align-items: center;
 }
+
 footer ul {
     display: flex;
     gap: 45px;
@@ -325,6 +327,10 @@ footer ul {
 
 @media screen and (max-width: 320px) {
 
+    body  .map-message-container {
+        width: auto;
+    }
+
     h1 {
         font-size: 2rem;
     }
@@ -334,12 +340,12 @@ footer ul {
     }
 
     header {
-        height: 70px;
+        height: 80px;
         width: 100%;
     }
 
     nav {
-        margin-top: 15px;
+        margin-top: 5px;
     }
 
     /*Circle hero image and text */
@@ -381,6 +387,92 @@ footer ul {
     }
 
     .map-message-container {
-        
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        width: 100%;
     }
+
+    .mapouter {
+        width: 200px;
+        height: 200px;
+        margin-left: 25px;
+        margin-top: 50px;
+        border: #b8973d solid 5px;
+    }
+
+    #textarea-submit {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    footer {
+    height: 65px;
 }
+
+    footer i {
+    color: black;
+    font-size: 90%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+label,
+input {
+    display: block;
+
+}
+
+.museum-image {
+    position: absolute;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    border: #b8973d solid 5px;
+    border-radius: 50%;
+    margin-left: 25%;
+}
+.museum-div {
+    position: relative;
+    display: block;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    margin: 0px 0px 0px 0px;
+}
+.museum-text {
+    text-align: justify;
+    background-color: #b8973d;
+    width: 282px;
+    padding: 0px 0px 0px 0px;
+    height: auto;
+    padding-right: 50px;
+    margin: 215px 0px 9px 24px;
+}
+p {
+    font-size: 12px;
+}
+.museum-div:nth-child(2n+0) {
+
+    flex-direction: row-reverse;
+    margin-right: 135px;
+}
+
+.museum-div:nth-child(2n+0) .museum-text {
+    margin-right: 150px;
+    padding: 20px 335px 15px 0px;
+}
+#museum-container {
+    margin-bottom: 100px;
+}
+
