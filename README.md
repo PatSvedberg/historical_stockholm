@@ -55,6 +55,8 @@
     ## Color Scheme:
     I opted for a yellowish hue in the design, inspired by the architecture of Stockholm, particularly the old town, which prominently features yellow tones. Additionally, yellow is often associated with a cheerful and upbeat mood.
 
+    Yellow color: #b8973d
+
     ## Typography:
     This site uses the font **Pragati Narrow - Bold 700**, **Martel - Light 300** and **Average Sans - Regular 400**
 
@@ -65,6 +67,11 @@
 
     ## Languages Used:
     HTML and CSS
+
+    # Testing:
+
+    ## Mobile use:    
+    I've noticed that the round maps are not optimal for mobile use. So they will most likely be a regular square shape for smaller screen sizes. Will investigate the smallest optimal size for round shapes.
 
     # Credit:
     ## Content
