@@ -24,12 +24,12 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5 rem;
+    font-size: 24px;
     font-family: 'Average Sans', sans-serif;
 }
 
 p {
-    font-size: 1.25 rem;
+    font-size: 20px;
 }
 
 /* Header and Nav */
@@ -88,7 +88,6 @@ nav a:hover {
     border: #b8973d solid 20px;
     border-radius: 50%;
     margin: 20px;
-    shape-outside: circle();
 }
 
 .hero-section p {
@@ -143,7 +142,6 @@ h1 #logo {
     float: left;
     border: #b8973d solid 20px;
     border-radius: 50%;
-    shape-outside: circle();
 }
 
 .map-message-container .inputbox {
@@ -264,7 +262,6 @@ input[type=submit] {
     height: 250px;
     border: #b8973d solid 10px;
     border-radius: 50%;
-    shape-outside: circle();
     margin-left: 20px;
     float: right;
 }
@@ -313,6 +310,15 @@ footer i {
     /* add a gap of 10px between the icons */
     align-items: center;
 }
+footer ul {
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding-top: 20px;
+}
 
 
 
@@ -354,7 +360,6 @@ footer i {
         border: #b8973d solid 7px;
         border-radius: 50%;
         margin: 2px;
-        shape-outside: circle();
     }
 
     .hero-image img {
