@@ -122,7 +122,6 @@ h1 #logo {
 
 /* Google map */
 .map-message-container {
-    position: absolute;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -324,7 +323,7 @@ footer ul {
 
 /* Media Querries */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 320px) {
 
     h1 {
         font-size: 2rem;
@@ -379,5 +378,9 @@ footer ul {
         margin: auto;
         margin-right: 5px;
         font-size: 0.75rem;
+    }
+
+    .map-message-container {
+        
     }
 }
