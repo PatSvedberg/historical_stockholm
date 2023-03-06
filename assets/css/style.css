@@ -43,37 +43,37 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  
-  h1 {
+}
+
+h1 {
     margin-bottom: 10px;
-  }
-  
-  ul {
+}
+
+ul {
     margin-top: 20px;
     padding: 0;
     display: flex;
-  }
-  
-  nav {
+}
+
+nav {
     margin-top: 20px;
-  }
-  
-  nav li {
+}
+
+nav li {
     list-style: none;
     margin-right: 45px;
-  }
-  
-  nav a {
+}
+
+nav a {
     text-decoration: none;
     color: black;
     font-size: 85%;
-  }
-  
-  nav a:hover {
+}
+
+nav a:hover {
     border-bottom: 3px solid black !important;
-  }
-  
+}
+
 
 
 /*Circle hero image and text */
@@ -126,6 +126,7 @@ h1 #logo {
 
     height: 25px
 }
+
 /* Google map */
 .map-message-container {
     position: absolute;
@@ -180,15 +181,19 @@ textarea {
     border: 1px solid #ccc;
     box-shadow: 1px 1px 1px #999;
 }
+
 #textarea-submit {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
 }
+
 input[type=submit] {
-    width: 50px;  height: 25px;
+    width: 50px;
+    height: 25px;
     margin-top: 50px;
 }
+
 .inputbox:nth-child(2) {
     transform: translate(-200px, -45px);
     z-index: -1;
@@ -199,10 +204,11 @@ input[type=submit] {
 
 #museum-container {
     margin-top: 85px;
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
 }
+
 .museum-div {
     position: relative;
     display: flex;
@@ -212,17 +218,23 @@ input[type=submit] {
     justify-items: center;
     margin: 85px 0px 150px 0px; /*Space between museum divs */
 }
+
 .museum-image {
     position: absolute;
     overflow: hidden;
     width: 400px;
     height: 400px;
-    float: left;
     border: #b8973d solid 20px;
     border-radius: 50%;
-    margin: 20px;
-    shape-outside: circle();
 }
+.museum-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+
 
 .museum-text {
     text-align: justify;
@@ -232,24 +244,26 @@ input[type=submit] {
     height: auto;
     margin-left: 135px;
 }
+
 .museum-div:nth-child(2n+0) {
 
     flex-direction: row-reverse;
     margin-right: 135px;
 }
+
 .museum-div:nth-child(2n+0) .museum-text {
     margin-right: 150px;
     padding: 20px 335px 15px 50px;
 }
 
 /* Contact */
-  
+
 .find-section {
     right: 100px;
     padding: 50px;
-  }
-  
-  .find-us-map {
+}
+
+.find-us-map {
     position: relative;
     overflow: hidden;
     width: 250px;
@@ -259,30 +273,30 @@ input[type=submit] {
     shape-outside: circle();
     margin-left: 20px;
     float: right;
-  }
-  
-  .find-us-map iframe {
+}
+
+.find-us-map iframe {
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+}
 
-  #contact-div {
+#contact-div {
     position: relative;
     margin-top: 75px;
     float: right;
     left: 55px;
     z-index: -1;
-  }
-  
-  .find-section p {
+}
+
+.find-section p {
     text-align: left;
     background-color: #b8973d;
     width: 300px;
     padding: 10px 20px 10px 20px;
 }
-  
+
 
 /* Footer */
 
@@ -295,17 +309,18 @@ footer {
     bottom: 0;
     width: 100%;
     height: 65px;
-  }
-  
-  footer i {
+}
+
+footer i {
     color: black;
     font-size: 150%;
     display: flex;
-    gap: 20px; /* add a gap of 10px between the icons */
+    gap: 20px;
+    /* add a gap of 10px between the icons */
     align-items: center;
-  }
-  
-  
+}
+
+
 
 /* Media Querries */
 
@@ -318,50 +333,52 @@ footer {
     h2 {
         font-size: 1rem;
     }
+
     header {
         height: 70px;
         width: 100%;
     }
+
     nav {
         margin-top: 15px;
     }
 
     /*Circle hero image and text */
-.hero-section {
-    position: relative;
-    width: 100%;
-    padding: 20px;
-    margin-top: 20px;
+    .hero-section {
+        position: relative;
+        width: 100%;
+        padding: 20px;
+        margin-top: 20px;
 
-}
+    }
 
-.hero-image {
-    position: relative;
-    overflow: hidden;
-    width: 30vw;
-    height: 30vw;
-    border: #b8973d solid 7px;
-    border-radius: 50%;
-    margin: 2px;
-    shape-outside: circle();
-}
+    .hero-image {
+        position: relative;
+        overflow: hidden;
+        width: 30vw;
+        height: 30vw;
+        border: #b8973d solid 7px;
+        border-radius: 50%;
+        margin: 2px;
+        shape-outside: circle();
+    }
 
-.hero-image img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+    .hero-image img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 
-.hero-section p {
-    text-align: center;
-    padding: 20px 100px 20px 0px;
-    background-color: #b8973d;
-    width: 50%;
-    margin: auto;
-    margin-right: 5px;
-    font-size: 0.75rem;
-}
+    .hero-section p {
+        text-align: center;
+        padding: 20px 100px 20px 0px;
+        background-color: #b8973d;
+        width: 50%;
+        margin: auto;
+        margin-right: 5px;
+        font-size: 0.75rem;
+    }
 }
