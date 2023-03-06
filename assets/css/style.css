@@ -146,6 +146,7 @@ h1 #logo {
     width: 100%;
 }
 
+
 .mapouter {
     position: relative;
     overflow: hidden;
@@ -197,6 +198,12 @@ input[type=submit] {
     width: 50px;  height: 25px;
     margin-top: 50px;
 }
+.inputbox:nth-child(2) {
+    transform: translate(-200px, -45px);
+    z-index: -1;
+    padding: 20px 0px 15px 230px;
+}
+
 
 
 
