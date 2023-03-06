@@ -232,6 +232,15 @@ input[type=submit] {
     height: auto;
     margin-left: 135px;
 }
+.museum-div:nth-child(2n+0) {
+
+    flex-direction: row-reverse;
+    margin-right: 135px;
+}
+.museum-div:nth-child(2n+0) .museum-text {
+    margin-right: 150px;
+    padding: 20px 335px 15px 50px;
+}
 
 /* Contact */
   
