@@ -94,16 +94,7 @@ header {
     border: #b8973d solid 20px;
     border-radius: 50%;
     margin: 20px;
-    shape-outside: circle()
-}
-
-.hero-image img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    shape-outside: circle();
 }
 
 .hero-section p {
@@ -204,20 +195,25 @@ input[type=submit] {
     padding: 20px 0px 15px 230px;
 }
 
+/*Museum flex box*/
 
-
-
-/*Museums */
-.museum-left-sec {
-    position: relative;
-    width: 100%;
-    padding: 50px;
-    margin-top: 20px;
+#museum-container {
+    margin-top: 85px;
+  display: flex;
+  flex-direction: column;
 
 }
-
-.museum-left-div {
+.museum-div {
     position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    margin: 85px 0px 150px 0px; /*Space between museum divs */
+}
+.museum-image {
+    position: absolute;
     overflow: hidden;
     width: 400px;
     height: 400px;
@@ -228,67 +224,13 @@ input[type=submit] {
     shape-outside: circle();
 }
 
-.museum-left-div img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.museum-left-sec p {
+.museum-text {
     text-align: justify;
-    margin-top: 100px;
-    margin-bottom: 20px;
-    margin-right: 800px;
-    margin-left: 200px;
-    padding: 20px 100px 20px 0px;
     background-color: #b8973d;
     width: 50%;
-}
-
-/* Bottom museum */
-
-.museum-bottom-sec {
-    position: relative;
-    width: 100%;
-    padding: 50px;
-    margin-top: 20px;
-    margin-bottom: 250px;
-
-}
-
-.museum-bottom-div {
-    position: relative;
-    overflow: hidden;
-    width: 400px;
-    height: 400px;
-    float: left;
-    border: #b8973d solid 20px;
-    border-radius: 50%;
-    margin: 20px;
-    shape-outside: circle()
-}
-
-.museum-bottom-div img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.museum-bottom-sec p {
-    text-align: justify;
-    margin-top: 100px;
-    margin-bottom: 20px;
-    margin-right: 800px;
-    margin-left: 200px;
-    padding: 20px 100px 20px 0px;
-    background-color: #b8973d;
-    width: 50%;
+    padding: 20px 50px 15px 335px;
+    height: auto;
+    margin-left: 135px;
 }
 
 /* Contact */
