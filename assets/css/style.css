@@ -136,10 +136,14 @@ h1 #logo {
     height: 25px
 }
 /* Google map */
-.map-and-message {
+.map-message-container {
     position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
     width: 100%;
-    border: 1px solid blue;
 }
 
 .mapouter {
@@ -147,23 +151,21 @@ h1 #logo {
     overflow: hidden;
     width: 400px;
     height: 400px;
-    margin-left: 2.5vw;
-    margin-top: 5vw;
+    margin-left: 25px;
+    margin-top: 50px;
     float: left;
     border: #b8973d solid 20px;
     border-radius: 50%;
     shape-outside: circle();
 }
 
-.map-and-message .inputbox {
+.map-message-container .inputbox {
     text-align: justify;
-    margin: auto;
     margin-top: 125px;
     padding-left: 50px;
     padding-bottom: 50px;
     background-color: #b8973d;
     width: 500px;
-    border: 1px solid green;
 }
 
 .inputbox h2,
@@ -176,7 +178,6 @@ input {
     display: block;
     margin: 10px 0;
     margin-left: 20px;
-    border: 1px solid purple;
 }
 
 textarea {
@@ -186,6 +187,15 @@ textarea {
     border-radius: 5px;
     border: 1px solid #ccc;
     box-shadow: 1px 1px 1px #999;
+}
+#textarea-submit {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+input[type=submit] {
+    width: 50px;  height: 25px;
+    margin-top: 50px;
 }
 
 
