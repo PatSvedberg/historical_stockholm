@@ -11,7 +11,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    
+
     background-color: white;
 }
 
@@ -61,8 +61,8 @@ nav a {
     font-size: 85%;
 }
 
-nav a:hover {
-    border-bottom: 3px solid black !important;
+li h2:hover {
+    border-bottom: 3px dotted black !important;
 }
 
 /*Circle hero image and text */
@@ -85,6 +85,7 @@ nav a:hover {
     margin: 20px;
     z-index: 1;
 }
+
 .hero-section p {
     text-align: justify;
     margin-top: 100px;
@@ -100,6 +101,7 @@ nav a:hover {
     overflow-x: hidden;
     transform: translate3d(-7px, -560px, 0px);
 }
+
 /*Nav links*/
 
 a:link {
@@ -221,6 +223,7 @@ input[type=submit] {
     object-position: center;
     object-fit: cover;
 }
+
 .museum-text {
     background-color: #b8973d;
     width: 1100px;
@@ -247,7 +250,7 @@ input[type=submit] {
 .find-section {
     right: 100px;
     padding: 50px;
-    
+
 }
 
 .find-us-map {
@@ -392,6 +395,7 @@ footer ul {
         justify-items: center;
         width: 100%;
     }
+
     .find-us-map {
         position: relative;
         overflow: hidden;
@@ -401,12 +405,14 @@ footer ul {
         border-radius: 50%;
         margin-left: 20px;
     }
+
     .find-section {
         right: 0px;
         position: absolute;
         padding: 0px;
         margin-right: 60px;
     }
+
     #contact-div {
         margin-top: 0px;
         width: 100%;
@@ -415,10 +421,12 @@ footer ul {
         left: 90px;
         background-color: #b8973d;
     }
+
     .find-section p {
         width: 300px;
         padding: 10px 40px 10px 20px;
     }
+
     .mapouter {
         width: 200px;
         height: 200px;
@@ -426,6 +434,7 @@ footer ul {
         margin-top: 50px;
         border: #b8973d solid 5px;
     }
+
     #contact-div {
         margin-top: 0px;
         width: 100%;
@@ -433,17 +442,20 @@ footer ul {
         margin-bottom: 40px;
         left: 90px;
     }
+
     .inputbox:nth-child(2) {
         transform: translate(0px, -144px);
         padding: 20px 15px 15px 15px;
         width: auto;
         margin-bottom: -58px;
     }
+
     #textarea-submit {
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
     }
+
     input[type=submit] {
         width: 50px;
         height: 25px;
@@ -521,12 +533,14 @@ footer ul {
     #museum-container {
         margin-bottom: 100px;
     }
+
     .museum-div:nth-child(2n+0) .museum-text {
         margin-right: 161px;
         margin-top: -143px;
         padding: 10px 16px 0px 30px;
         width: 100%;
     }
+
     .museum-image {
         width: 230px;
         height: 230px;
@@ -545,6 +559,7 @@ footer ul {
         flex-direction: row;
         margin-right: 135px;
     }
+
     .museum-div:nth-child(2n+0) .museum-text {
         margin-left: 316px;
         margin-right: -134px;
@@ -554,7 +569,7 @@ footer ul {
 
 /* Media Querries 800px wide */
 @media screen and (max-width: 800px) {
-    
+
     .museum-div {
         position: relative;
         display: flex;
@@ -569,6 +584,7 @@ footer ul {
         border: #b8973d solid 20px;
         border-radius: 50%;
     }
+
     .museum-text {
         background-color: #b8973d;
         width: 652px;
@@ -579,6 +595,7 @@ footer ul {
         overflow-x: hidden;
         transform: translate3d(-81px, 424px, 1px);
     }
+
     .museum-text {
         background-color: #b8973d;
         width: 100%;
@@ -589,20 +606,24 @@ footer ul {
         overflow-x: hidden;
         overflow-x: hidden;
     }
+
     .museum-div:nth-child(2n+0) .museum-text {
         margin-right: 0px;
         margin-top: 12px;
         padding: 20px 226px 0px 17px;
     }
+
     .museum-div:nth-child(2n+0) {
         flex-direction: column;
         margin-right: 0px;
     }
+
     .museum-div:nth-child(2n+0) {
         flex-direction: column;
         margin-right: 0px;
         margin-bottom: 227px;
     }
+
     #last-museum {
         margin-bottom: 360px;
     }
@@ -611,7 +632,7 @@ footer ul {
 
 /* Media Querries 480px wide */
 @media screen and (max-width: 480px) {
-    
+
     .museum-div {
         position: relative;
         display: flex;
@@ -619,6 +640,7 @@ footer ul {
         align-items: center;
         margin: 85px 0px 212px 0px;
     }
+
     .museum-text {
         background-color: #b8973d;
         width: 100%;
@@ -634,7 +656,7 @@ footer ul {
 
 /* Media Querries 460px wide */
 @media screen and (max-width: 460px) {
-    
+
     .museum-div {
         position: relative;
         display: flex;
@@ -642,6 +664,7 @@ footer ul {
         align-items: center;
         margin: 85px 0px 212px 0px;
     }
+
     .museum-text {
         background-color: #b8973d;
         width: 100%;
@@ -653,12 +676,14 @@ footer ul {
         overflow-x: hidden;
         overflow-x: hidden;
     }
+
     .museum-image {
         width: 250px;
         height: 250px;
         border: #b8973d solid 20px;
         border-radius: 50%;
     }
+
     .museum-div:nth-child(2n+0) .museum-text {
         margin-right: 0px;
         margin-top: -143px;
@@ -666,6 +691,7 @@ footer ul {
     }
 
 }
+
 @media screen and (max-width: 480px) {
 
     h1 {
@@ -673,6 +699,7 @@ footer ul {
     }
 
 }
+
 @media screen and (max-width: 320px) {
 
     h1 {
