@@ -9,11 +9,9 @@
 body {
     background-image: url(../images/stockholm-cafe.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
     background-size: cover;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+    height: 100vh;
+    
     background-color: white;
 }
 
@@ -85,20 +83,23 @@ nav a:hover {
     border: #b8973d solid 20px;
     border-radius: 50%;
     margin: 20px;
+    z-index: 1;
 }
-
 .hero-section p {
     text-align: justify;
     margin-top: 100px;
     margin-bottom: 20px;
-    margin-right: 800px;
-    margin-left: 200px;
-    padding: 20px 20px 40px 20px;
+    margin-right: 794px;
+    margin-left: 185px;
+    padding: 20px 20px 40px 493px;
     background-color: #b8973d;
     width: 1630px;
     height: 350px;
+    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    transform: translate3d(-7px, -560px, 0px);
 }
-
 /*Nav links*/
 
 a:link {
@@ -245,6 +246,7 @@ input[type=submit] {
 .find-section {
     right: 100px;
     padding: 50px;
+    
 }
 
 .find-us-map {
@@ -256,6 +258,7 @@ input[type=submit] {
     border-radius: 50%;
     margin-left: 20px;
     float: right;
+    z-index: 1;
 }
 
 .find-us-map iframe {
@@ -375,8 +378,9 @@ footer ul {
         margin: auto;
         margin-right: 35px;
         font-size: 16px;
-        height: 700px;
+        height: 441px;
         overflow: scroll;
+        transform: translate(3px, -11px);
     }
 
     .map-message-container {
