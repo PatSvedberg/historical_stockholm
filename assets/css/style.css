@@ -225,6 +225,9 @@ input[type=submit] {
     padding: 20px 50px 15px 335px;
     height: 350px;
     margin-left: 135px;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 .museum-div:nth-child(2n+0) {
