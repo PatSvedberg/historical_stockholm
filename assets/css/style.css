@@ -155,6 +155,9 @@ h1 #logo {
 p {
     margin-left: 20px;
 }
+textarea {
+    resize: none;
+}
 
 label,
 input {
