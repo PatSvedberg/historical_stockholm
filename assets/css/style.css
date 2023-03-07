@@ -219,6 +219,7 @@ input[type=submit] {
     width: 100%;
     height: 100%;
     object-position: center;
+    object-fit: cover;
 }
 .museum-text {
     background-color: #b8973d;

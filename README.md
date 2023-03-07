@@ -73,11 +73,16 @@
     ## Mobile use:    
     I've noticed that the round maps are not optimal for mobile use. So they will most likely be a regular square shape for smaller screen sizes. Will investigate the smallest optimal size for round shapes.
 
-    # Credit:
-    ## Content
-    ## Media
-    Google Map, images from the museums.
-    ## Credit
+    # Credit
+    ## Images:
+    **NOTE! This page is for educational purposes only!**
+
+    Background image: https://paraplytours.com/wp-content/uploads/2019/03/stockholm-under-kastanjen-cafe-1-1300x0.jpg <br />
+    Hero image: https://www.kihousing.se/our-accommodation-areas/ <br />
+    Livrustkammaren Image: https://melkerlarsson.files.wordpress.com/2015/01/livrustkammaren-rustningar.jpg?w=700 <br />
+    Medeltidsmuseet Image: https://upload.wikimedia.org/wikipedia/commons/4/48/S%C3%B6_274%2C_Medeltidsmuseet.JPG <br />
+    Vasamuseum Image: https://sv.wikipedia.org/wiki/Regalskeppet_Vasa#/media/Fil:Djurg%C3%A5rden,_%C3%96stermalm,_Stockholm,_Sweden_-_panoramio_(8).jpg <br />
+    Nordiska museet Image: https://www.nordiskamuseet.se/sites/default/files/public/subject/nordiskamuseet-vackra-trad-host-insta_alexander_assal_low_webb.jpg
 
 
 
