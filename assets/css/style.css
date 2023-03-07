@@ -315,16 +315,13 @@ footer ul {
 /* Media Querries 320px wide */
 @media screen and (max-width: 320px) {
 
-    body .map-message-container {
-        width: auto;
-    }
 
     h1 {
-        font-size: 2rem;
+        font-size: 32px;
     }
 
     h2 {
-        font-size: 1rem;
+        font-size: 16px;
     }
 
     header {
@@ -377,7 +374,7 @@ footer ul {
         width: 75%;
         margin: auto;
         margin-right: 35px;
-        font-size: 12px;
+        font-size: 16px;
         height: 700px;
         overflow: scroll;
     }
@@ -475,13 +472,11 @@ footer ul {
     }
 
     .museum-image {
-        position: absolute;
-        overflow: hidden;
-        width: 200px;
-        height: 200px;
-        border: #b8973d solid 5px;
+        width: 250px;
+        height: 250px;
+        border: #b8973d solid 20px;
         border-radius: 50%;
-        margin-left: 62px;
+        margin-right: 73px;
     }
 
     .museum-div {
@@ -504,7 +499,7 @@ footer ul {
     }
 
     p {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .museum-div:nth-child(2n+0) {
@@ -520,6 +515,20 @@ footer ul {
 
     #museum-container {
         margin-bottom: 100px;
+    }
+    .museum-div:nth-child(2n+0) .museum-text {
+        margin-right: 161px;
+        margin-top: -143px;
+        padding: 10px 16px 0px 30px;
+        width: 100%;
+    }
+    .museum-image {
+        width: 230px;
+        height: 230px;
+        border: #b8973d solid 20px;
+        border-radius: 50%;
+        margin-left: 60px;
+        margin-top: 16px;
     }
 }
 
@@ -577,6 +586,7 @@ footer ul {
     }
     .museum-div:nth-child(2n+0) .museum-text {
         margin-right: 0px;
+        margin-top: 12px;
         padding: 20px 226px 0px 17px;
     }
     .museum-div:nth-child(2n+0) {
@@ -590,6 +600,78 @@ footer ul {
     }
     #last-museum {
         margin-bottom: 360px;
+    }
+
+}
+
+/* Media Querries 480px wide */
+@media screen and (max-width: 480px) {
+    
+    .museum-div {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 85px 0px 212px 0px;
+    }
+    .museum-text {
+        background-color: #b8973d;
+        width: 100%;
+        padding: 20px 50px 15px 27px;
+        height: 350px;
+        margin-left: 176px;
+        overflow: scroll;
+        overflow-x: hidden;
+        overflow-x: hidden;
+    }
+
+}
+
+/* Media Querries 460px wide */
+@media screen and (max-width: 460px) {
+    
+    .museum-div {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 85px 0px 212px 0px;
+    }
+    .museum-text {
+        background-color: #b8973d;
+        width: 100%;
+        padding: 20px 50px 15px 27px;
+        height: 350px;
+        margin-left: 176px;
+        margin-top: -147px;
+        overflow: scroll;
+        overflow-x: hidden;
+        overflow-x: hidden;
+    }
+    .museum-image {
+        width: 250px;
+        height: 250px;
+        border: #b8973d solid 20px;
+        border-radius: 50%;
+    }
+    .museum-div:nth-child(2n+0) .museum-text {
+        margin-right: 0px;
+        margin-top: -143px;
+        padding: 13px 181px 0px 17px;
+    }
+
+}
+@media screen and (max-width: 480px) {
+
+    h1 {
+        font-size: 200%;
+    }
+
+}
+@media screen and (max-width: 320px) {
+
+    h1 {
+        font-size: 28px;
     }
 
 }
