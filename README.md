@@ -30,6 +30,7 @@
      * [Index](#Index)
      * [Map](#Maps)
      * [Museums](#Museum)
+     * [Features Left to Implement](#Features-Left-to-Implement)
 * [Content](#Content)
     * [Content](#Inspirations)
     * [Media](#Media)
@@ -129,6 +130,11 @@
      * Here there is a collection of museums to visit with a picture and a small text describing the museum.
      ![Image of Index Page](/assets/images/museums-img-min.PNG "Image of Index Page")
      <br />
+     ## Features Left to Implement:
+     * More interaction for the Google maps.
+     * For the form on the Map page. Being able to send input to an email.
+     * More info for the museums. Adresses, phone, email etc.
+     * Make a custom look for the scrolls.
      <br />
 
     # Content
