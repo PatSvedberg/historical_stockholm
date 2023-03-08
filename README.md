@@ -32,12 +32,13 @@
 * [Testing](#Testing)
     * [Notes](#Notes)
     * [Lighthouse](#Lighthouse)
+    * [Validators](#Validators)
 
 * [Features](#Features)
      * [Header and Navigation](#Header-and-Nav)
      * [Footer](#Footer)
      * [Index](#Index)
-     * [Map](#Map-page)
+     * [Map](#Maps)
      * [Museums](#Musums)
 
 
@@ -111,6 +112,7 @@
      ![Image of Lighthouse score](/assets/images/lighthouse.PNG "Image of Lighthouse score")
 
      # Features
+
      ## Header and Navigation
      * The header has links to the different pages and a logo made from a < h1 > that also links to the index page.
            ![Image of Header](/assets/images/header-img-min.PNG "Image of Header")
@@ -140,7 +142,17 @@
     * Medeltidsmuseet Image: https://upload.wikimedia.org/wikipedia/commons/4/48/S%C3%B6_274%2C_Medeltidsmuseet.JPG <br />
     * Vasamuseum Image: https://sv.wikipedia.org/wiki/Regalskeppet_Vasa#/media/Fil:Djurg%C3%A5rden,_%C3%96stermalm,_Stockholm,_Sweden_-_panoramio_(8).jpg <br />
     * Nordiska museet Image: https://www.nordiskamuseet.se/sites/default/files/public/subject/nordiskamuseet-vackra-trad-host-insta_alexander_assal_low_webb.jpg
+    <br />
+    <br />
+    The social media icons were taken from [Font Awesome](https://fontawesome.com/)
 
     ## Content:
     * The footer HTML-code was inpired from Code Institutes ”Love Running” project.
+
+    # Credits:
+
+    ## Thanks to:
+    ### Lauren-Nicole Popich
+    * My mentor. For helpt end encouragement!
+
 
