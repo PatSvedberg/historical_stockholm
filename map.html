@@ -2,93 +2,91 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Historical information about Stockholm, Sweden. With interactive map and timeline">
-    <meta name="keywords" content="History, Stockholm, Sweden, map, timeline">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Historical information about Stockholm, Sweden. With interactive map and timeline">
+  <meta name="keywords" content="History, Stockholm, Sweden, map, timeline">
 
-    <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Historical Stockholm</title>
+  <title>Historical Stockholm</title>
 </head>
 
 <!--Body Start-->
 
 <body>
-    <header>
-        <a href="index.html" id="logo">
-          <h1>Historical Stockholm</h1>
-        </a>
-        <!-- Navigation bar in header -->
-        <nav>
-          <ul>
-            <li>
-              <a href="index.html">
-                <h2>About</h2>
-              </a>
-            </li>
-            <li>
-              <a href="map.html" class="active">
-                <h2>Map</h2>
-              </a>
-            </li>
-            <li>
-              <a href="museums.html">
-                <h2>Museums</h2>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+  <header>
+    <a href="index.html" id="logo">
+      <h1>Historical Stockholm</h1>
+    </a>
+    <!-- Navigation bar in header -->
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">
+            <h2>About</h2>
+          </a>
+        </li>
+        <li>
+          <a href="map.html" class="active">
+            <h2>Map</h2>
+          </a>
+        </li>
+        <li>
+          <a href="museums.html">
+            <h2>Museums</h2>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-    <div class="map-message-container">
-        <div class="mapouter">
-            <div class="gmap_canvas">
-                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1-MSDKFTnZXzMaICj5lUgXK6okBKO9cc&ehbc=2E312F"
-                    width="1100" height="1100"></iframe>
-            </div>
-        </div>
-        <div class="inputbox">
-            <form>
-                <label for="fname">First Name:</label>
-                <input type="text" id="fname" name="fname" size="25"><br>
-                <label for="lname">Last Name:</label>
-                <input type="text" id="lname" name="lname" size="25"><br>
-                <label for="message">Is the map missing something?:</label>
-                <div id="textarea-submit">
-                        <textarea id="message" name="message" rows="5" cols="33"
-                            placeholder="Tell us what, and we will look into it!"></textarea>
-                        <input type="submit" value="Submit">
-                </div>
-
-            </form>
-        </div>
+  <div class="map-message-container">
+    <div class="mapouter">
+      <div class="gmap_canvas">
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1-MSDKFTnZXzMaICj5lUgXK6okBKO9cc&ehbc=2E312F"></iframe>
+      </div>
     </div>
-    <!--Footer-->
-    <footer>
-        <ul class="social-networks">
-            <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener"
-                aria-label="Visit out Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-            <a href="https://twitter.com" target="_blank" rel="noopener"
-                aria-label="Visit out Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>                
-            </li>
-            <li>
-            <a href="https://youtube.com" target="_blank" rel="noopener"
-                aria-label="Visit out Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
-            </li>
-            <li>
-            <a href="https://instagram.com" target="_blank" rel="noopener"
-                aria-label="Visit out Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
-            </li>
-        </ul>
-    </footer>
-    <!-- font awesome script-->
-    <script src="https://kit.fontawesome.com/64b43d00b6.js" crossorigin="anonymous"></script>
+    <div class="inputbox">
+      <form>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" size="25"><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" size="25"><br>
+        <label for="message">Is the map missing something?:</label>
+        <div id="textarea-submit">
+          <textarea id="message" name="message" rows="5" cols="33"
+            placeholder="Tell us what, and we will look into it!"></textarea>
+          <input type="submit" value="Submit">
+        </div>
+
+      </form>
+    </div>
+  </div>
+  <!--Footer-->
+  <footer>
+    <ul class="social-networks">
+      <li>
+        <a href="https://facebook.com" target="_blank" rel="noopener"
+          aria-label="Visit out Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+      </li>
+      <li>
+        <a href="https://twitter.com" target="_blank" rel="noopener"
+          aria-label="Visit out Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+      </li>
+      <li>
+        <a href="https://youtube.com" target="_blank" rel="noopener"
+          aria-label="Visit out Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+      </li>
+      <li>
+        <a href="https://instagram.com" target="_blank" rel="noopener"
+          aria-label="Visit out Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+      </li>
+    </ul>
+  </footer>
+  <!-- font awesome script-->
+  <script src="https://kit.fontawesome.com/64b43d00b6.js" crossorigin="anonymous"></script>
 
 </body>
 
