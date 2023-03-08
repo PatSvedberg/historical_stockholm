@@ -95,6 +95,14 @@
 
     * The HTML validator did not like that I did't have a H2-H6 in the "< section >". So I changed to a "< div >" to make the validator warning go away.
      ![HTML validator error image](/assets/images/htmlerror.PNG "Image of HTML valitator error")
+     <br>
+     HTML validator:
+     <br>
+     ![HTML validator image](/assets/images/html-valid.PNG "Image of HTML valitator")
+     <br>
+     * CSS validator
+     <br>
+     ![CSS validator image](/assets/images/css-valid.PNG "Image of CSS valitator")
 
      ## Lighthouse
 
