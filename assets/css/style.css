@@ -10,6 +10,7 @@ body {
     background-image: url(../images/stockholm-cafe.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
 
     background-color: white;
@@ -709,4 +710,11 @@ footer ul {
         font-size: 28px;
     }
 
+}
+@media screen and (max-width: 1500px) {
+    .mapouter {
+        width: 850px;
+        height: 850px;
+    }
+    
 }
