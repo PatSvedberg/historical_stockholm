@@ -156,6 +156,7 @@ h1 #logo {
 p {
     margin-left: 20px;
 }
+
 textarea {
     resize: none;
 }
@@ -290,11 +291,12 @@ input[type=submit] {
     width: 300px;
     padding: 10px 20px 10px 20px;
 }
-    .gmap_canvas iframe {
+
+.gmap_canvas iframe {
     position: absolute;
     width: 100%;
     height: 100%;
-  }
+}
 
 /* Footer */
 footer {
@@ -443,6 +445,7 @@ footer ul {
         margin-top: 50px;
         border: #b8973d solid 5px;
     }
+
     .find-us-map iframe {
         position: absolute;
         width: 100%;
@@ -721,10 +724,92 @@ footer ul {
     }
 
 }
+
 @media screen and (max-width: 1500px) {
     .mapouter {
         width: 850px;
         height: 850px;
     }
+
+}
+
+/*Map media query*/
+@media screen and (max-width: 1366px) {
+    .mapouter {
+        width: 480px;
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 768px) {
     
+    .map-message-container {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+
+    }
+    .mapouter {
+        width: 390px;
+        height: 390px;
+    }
+    #textarea-submit {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    textarea {
+        height: 69px;
+        width: 238px;
+    }
+
+    input[type=submit] {
+        width: 50px;
+        height: 25px;
+        margin-top: 50px;
+        margin-left: 94px;
+    }
+    .inputbox:nth-child(2) {
+        transform: translate(0px, -189px);
+        padding: 35px 10px 15px 230px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .mapouter {
+        width: 320px;
+        height: 320px;
+        margin: 50px 0px 50px 0px;
+    }
+}
+@media screen and (max-width: 320px) {
+
+    .mapouter {
+        width: 150px;
+        height: 150px;
+        margin: 15px 47px 44px 0px;
+    }
+    .inputbox:nth-child(2) {
+        transform: translate(-22px, -189px);
+        padding: 144px 10px 15px 0px;
+        width: 218px;
+        height: 332px;
+        margin-top: 150px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translate(-1px, -143px);
+    }
+    textarea {
+        height: 125px;
+        width: 173px;
+    }
+    input[type=submit] {
+        margin-top: 50px;
+        margin-left: 73px;
+    }
 }
