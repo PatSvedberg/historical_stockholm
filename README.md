@@ -55,7 +55,7 @@
     ## Color:
     I opted for a yellowish hue in the design, inspired by the architecture of Stockholm, particularly the old town, which prominently features yellow tones. Additionally, yellow is often associated with a cheerful and upbeat mood.
 
-    I only used two colors while coding. But I use the colors of the images give it more colors.
+    I only used two colors while coding. But I use the colors of the images to give it more colors.
     Color code:
 
     Image made using [Coolers](https://coolors.co/)
@@ -91,18 +91,18 @@
 
     * Managed to make the circle images and maps fit even with smaller sized screens.
 
-    ## Validators:
+    ## validators:
 
-    * The HTML validator did not like that I did't have a H2-H6 in the "< section >". So I changed to a "< div >" to make the validator warning go away.
-     ![HTML validator error image](/assets/images/htmlerror.PNG "Image of HTML valitator error")
+    * The HTML validator did not like that I didn't have a H2-H6 in the "< section >". So I changed to a "< div >" to make the validator warning go away.
+     ![HTML validator error image](/assets/images/htmlerror.PNG "Image of HTML validator error")
      <br>
      HTML validator:
      <br>
-     ![HTML validator image](/assets/images/html-valid.PNG "Image of HTML valitator")
+     ![HTML validator image](/assets/images/html-valid.PNG "Image of HTML validator")
      <br>
      * CSS validator
      <br>
-     ![CSS validator image](/assets/images/css-valid.PNG "Image of CSS valitator")
+     ![CSS validator image](/assets/images/css-valid.PNG "Image of CSS validator")
 
      ## Lighthouse
 
@@ -118,7 +118,7 @@
      * The footer has links to four different social media platforms (**Facebook**, **Twitter**, **Youtube** and **Instagram**)
             ![Image of Footer](/assets/images/footer-img-min.PNG "Image of Footer")
      ## Index
-     * The index page greets the user with a welcome text and picture of Stockholm inside a circular border. This design is constistant throughout the project. At the bottom of the page above the footer the contact information is located with a **Google Map** with the location.
+     * The index page greets the user with a welcome text and picture of Stockholm inside a circular border. This design is consistent throughout the project. At the bottom of the page above the footer the contact information is located with a **Google Map** with the location.
           ![Image of Index Page](/assets/images/index.PNG "Image of Index Page")
           * **Contacts:** <br />
                  ![Image of Header](/assets/images/contacts-img-min.PNG "Image of Header")
@@ -126,7 +126,7 @@
      * Here the user can see places of interests around the city. They can also suggest new pins to be added to the map.
      ![Image of Index Page](/assets/images/maps-img-min.PNG "Image of Index Page")
      ## Museum
-     * Here there is a collection of museums to visit with a picture and a small text descriping the museum.
+     * Here there is a collection of museums to visit with a picture and a small text describing the museum.
      ![Image of Index Page](/assets/images/museums-img-min.PNG "Image of Index Page")
      <br />
      <br />
@@ -146,7 +146,7 @@
     The social media icons were taken from [Font Awesome](https://fontawesome.com/)
     
     ## Inspirations:
-    * The footer HTML-code was inpired from Code Institutes ”Love Running” project.
+    * The footer HTML-code was inspired from Code Institutes ”Love Running” project.
     <br />
     <br />
     # Acknowledgments:
