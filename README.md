@@ -11,10 +11,9 @@
     * [Museum](#museum)
 
 * [User Experience](#UserExperience)
-    * [User Stories](#UserStories)
+    * [User Demographics](#UserDemographics)
 
 * [Design](#Design)
-
     * [Color Scheme](#Color)
     * [Typography](#Typography)
     * [Imagery](#Imagery)
@@ -23,14 +22,24 @@
     * [Features](#Features)
 
 * [Technologies Used](#TechUsed)
-    * [Languages Used](#Languages )
-    * [Frameworks, Libraries & Programs Used](#Frameworks)
+    * [Software Used](#software-used)
+    * [Languages Used](#Languages)
 
 * [Deployment & Local Deployment](#Deployment)
     * [Deployment](#Deployment)
     * [Local Development](#LocalDevelopment)
 
 * [Testing](#Testing)
+    * [Notes](#Notes)
+    * [Lighthouse](#Lighthouse)
+
+* [Features](#Features)
+     * [Header and Navigation](#Header-and-Nav)
+     * [Footer](#Footer)
+     * [Index](#Index)
+     * [Map](#Map-page)
+     * [Museums](#Musums)
+
 
 
 * [Credit](#Credit)
@@ -55,7 +64,7 @@
 
     # Design
 
-    ## Color Scheme:
+    ## Color:
     I opted for a yellowish hue in the design, inspired by the architecture of Stockholm, particularly the old town, which prominently features yellow tones. Additionally, yellow is often associated with a cheerful and upbeat mood.
 
     I only used two colors while coding. But I use the colors of the images give it more colors.
@@ -86,12 +95,39 @@
 
     # Testing:
 
+    ## Notes:
+
     * I've noticed that the round maps are not optimal for mobile use. So they will most likely be a regular square shape for smaller screen sizes. Will investigate the smallest optimal size for round shapes.
 
     * Managed to make the circle images and maps fit even with smaller sized screens.
 
+    ## Validators:
+
     * The HTML validator did not like that I did't have a H2-H6 in the "< section >". So I changed to a "< div >" to make the validator warning go away.
-     ![HTML validator error image](/assets/images/htmlerror.PNG "Pictures of my colors")
+     ![HTML validator error image](/assets/images/htmlerror.PNG "Image of HTML valitator error")
+
+     ## Lighthouse
+
+     ![Image of Lighthouse score](/assets/images/lighthouse.PNG "Image of Lighthouse score")
+
+     # Features
+     ## Header and Navigation
+     * The header has links to the different pages and a logo made from a < h1 > that also links to the index page.
+           ![Image of Header](/assets/images/header-img-min.PNG "Image of Header")
+     ## Footer
+     * The footer has links to four different social media platforms (**Facebook**, **Twitter**, **Youtube** and **Instagram**)
+            ![Image of Footer](/assets/images/footer-img-min.PNG "Image of Footer")
+     ## Index
+     * The index page greets the user with a welcome text and picture of Stockholm inside a circular border. This design is constistant throughout the project. At the bottom of the page above the footer the contact information is located with a **Google Map** with the location.
+          ![Image of Index Page](/assets/images/index.PNG "Image of Index Page")
+          * **Contacts:** <br />
+                 ![Image of Header](/assets/images/contacts-img-min.PNG "Image of Header")
+     ## Maps
+     * Here the user can see places of interests around the city. They can also suggest new pins to be added to the map.
+     ![Image of Index Page](/assets/images/maps-img-min.PNG "Image of Index Page")
+     ## Museums
+     * Here there is a collection of museums to visit with a picture and a small text descriping the museum.
+     ![Image of Index Page](/assets/images/museums-img-min.PNG "Image of Index Page")
 
 
     # Credit
