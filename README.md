@@ -58,23 +58,41 @@
     ## Color Scheme:
     I opted for a yellowish hue in the design, inspired by the architecture of Stockholm, particularly the old town, which prominently features yellow tones. Additionally, yellow is often associated with a cheerful and upbeat mood.
 
-    Yellow color: #b8973d
+    I only used two colors while coding. But I use the colors of the images give it more colors.
+    Color code:
+
+    Image made using [Coolers](https://coolors.co/)
+    ![Alt text](/assets/images/colors.PNG "Pictures of my colors")
 
     ## Typography:
-    This site uses the font **Pragati Narrow - Bold 700**, **Martel - Light 300** and **Average Sans - Regular 400**
+    This site uses the fonts: <br /> 
+    **[Pragati Narrow - Bold 700](https://fonts.google.com/specimen/Pragati+Narrow?query=praga) <br />**
+    **[Martel Light 300](https://fonts.google.com/specimen/Martel?query=martel) <br />**
+    **[Average Sans Regular 400](https://fonts.google.com/specimen/Average+Sans?query=Average+Sans) <br />**
 
     ## Imagery:
     I use images of Stockholm's old town and images from the museums.
 
     # Technologies Used:
 
+    ## Software used
+    * Gitpod
+    * Github
+    * Google Chrome Dev Tool
+
     ## Languages Used:
-    HTML and CSS
+    * HTML
+    * CSS
 
     # Testing:
 
-    ## Mobile use:    
-    I've noticed that the round maps are not optimal for mobile use. So they will most likely be a regular square shape for smaller screen sizes. Will investigate the smallest optimal size for round shapes.
+    * I've noticed that the round maps are not optimal for mobile use. So they will most likely be a regular square shape for smaller screen sizes. Will investigate the smallest optimal size for round shapes.
+
+    * Managed to make the circle images and maps fit even with smaller sized screens.
+
+    * The HTML validator did not like that I did't have a H2-H6 in the "< section >". So I changed to a "< div >" to make the validator warning go away.
+     ![HTML validator error image](/assets/images/htmlerror.PNG "Pictures of my colors")
+
 
     # Credit
     ## Images:
