@@ -5,50 +5,33 @@
 <br />
 
 ![Image of project on different devices](/assets/images/readme-top-image.jpg "Image of project on different devices")
-
-
 ## Table of Content:
 
 * [Pages](#pages)
     * [About](#about)
     * [Map](#map)
-    * [Museum](#museum)
-
-* [User Experience](#UserExperience)
-    * [User Demographics](#UserDemographics)
-
+    * [Museum](#museums)
+* [User Experience](#UX)
+    * [User Demographics](#Demographics)
 * [Design](#Design)
     * [Color Scheme](#Color)
     * [Typography](#Typography)
     * [Imagery](#Imagery)
-    * [Wireframes](#Wireframes)
-    * [Accessibility](#Accessibility)
-    * [Features](#Features)
-
-* [Technologies Used](#TechUsed)
+* [Technologies Used](#Technologies-Used)
     * [Software Used](#software-used)
-    * [Languages Used](#Languages)
-
-* [Deployment & Local Deployment](#Deployment)
-    * [Deployment](#Deployment)
-    * [Local Development](#LocalDevelopment)
-
+    * [Languages Used](#Languages-used)
 * [Testing](#Testing)
     * [Notes](#Notes)
     * [Lighthouse](#Lighthouse)
     * [Validators](#Validators)
-
 * [Features](#Features)
-     * [Header and Navigation](#Header-and-Nav)
+     * [Header and Navigation](#Header-and-Navigation)
      * [Footer](#Footer)
      * [Index](#Index)
      * [Map](#Maps)
-     * [Museums](#Musums)
-
-
-
-* [Credit](#Credit)
-    * [Content](#Content)
+     * [Museums](#Museum)
+* [Content](#Content)
+    * [Content](#Inspirations)
     * [Media](#Media)
     * [Acknowledgments](#Acknowledgments)
 
@@ -56,17 +39,17 @@
     ## About:
     The purpose of this page is to greet visitors and clarify the content of the site.
 
-    ## Maps:
+    ## Map:
     Embedded in this page is a Google map with personalized markers denoting sites of potential interest for visitors to explore. Additionally, a suggestion box is available for visitors to provide feedback about any missing locations.
 
     ## Museums:
     This page has a great collection of relevant museums, complete with informative details about each one.
 
-    # User Experience
-    ## User Demographics:
+    # UX
+    ## Demographics:
     * People who is visiting or local to Stockholm and want to find places to explore the history of the city
-
-
+    <br />
+    <br />
     # Design
 
     ## Color:
@@ -89,7 +72,7 @@
 
     # Technologies Used:
 
-    ## Software used
+    ## Software Used
     * Gitpod
     * Github
     * Google Chrome Dev Tool
@@ -97,6 +80,8 @@
     ## Languages Used:
     * HTML
     * CSS
+    <br />
+    <br />
 
     # Testing:
 
@@ -114,7 +99,8 @@
      ## Lighthouse
 
      ![Image of Lighthouse score](/assets/images/lighthouse.PNG "Image of Lighthouse score")
-
+    <br />
+    <br />
      # Features
 
      ## Header and Navigation
@@ -131,10 +117,11 @@
      ## Maps
      * Here the user can see places of interests around the city. They can also suggest new pins to be added to the map.
      ![Image of Index Page](/assets/images/maps-img-min.PNG "Image of Index Page")
-     ## Museums
+     ## Museum
      * Here there is a collection of museums to visit with a picture and a small text descriping the museum.
      ![Image of Index Page](/assets/images/museums-img-min.PNG "Image of Index Page")
-
+     <br />
+     <br />
 
     # Content
     ## Media:
@@ -149,11 +136,12 @@
     <br />
     <br />
     The social media icons were taken from [Font Awesome](https://fontawesome.com/)
-
-    ## Content:
+    
+    ## Inspirations:
     * The footer HTML-code was inpired from Code Institutes ”Love Running” project.
-
-    # Credits:
+    <br />
+    <br />
+    # Acknowledgments:
 
     ## Thanks to:
     ### Lauren-Nicole Popich
