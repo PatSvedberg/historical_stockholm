@@ -3,7 +3,7 @@
 ### This project is my first portfolio piece. The goal was to create a webpage that aids in exploring Stockholm's history, catering to both residents and visitors. Google Maps were utilized to mark noteworthy locations and museums for visitors to explore. Additionally, a dedicated page was included for relevant museums with detailed information.
 
 
-## Content:
+## Table of Content:
 
 * [Pages](#pages)
     * [About](#about)
@@ -49,6 +49,9 @@
     This page has a great collection of relevant museums, complete with informative details about each one.
 
     # User Experience
+    ## User Demographics:
+    * People who is visiting or local to Stockholm and want to find places to explore the history of the city
+
 
     # Design
 
