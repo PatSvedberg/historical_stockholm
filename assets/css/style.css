@@ -116,8 +116,8 @@ h1 #logo {
 .mapouter {
     position: relative;
     overflow: hidden;
-    width: 750px;
-    height: 750px;
+    width: 30vw;
+    height: 30vw;
     margin: 50px 0px 25px 50px;
     border: #b8973d solid 20px;
     border-radius: 50%;
@@ -325,6 +325,48 @@ footer ul {
     }
 }
 
+@media only screen and (max-width: 1200px) {
+
+    .map-message-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .map-message-container .inputbox {
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+
+    input[type=submit] {
+        margin-top: 25px;
+    }
+
+    .mapouter {
+        width: 100%;
+        height: 45vw;
+        margin: 10px 0px 0px 0px;
+        border-radius: 0%;
+    }
+
+    .inputbox:nth-child(2) {
+        transform: translate(0px, 0px);
+        padding: 20px 20px 15px 20px;
+    }
+
+    .map-message-container .inputbox {
+        width: auto;
+    }
+
+    #textarea-submit {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 @media only screen and (max-width: 690px) {
 
     .hero-image {
@@ -373,6 +415,10 @@ footer ul {
         height: 75vw;
         border: #b8973d solid 20px;
         border-radius: 50%;
+    }
+
+    .mapouter {
+        height: 60vw;
     }
 
 }
