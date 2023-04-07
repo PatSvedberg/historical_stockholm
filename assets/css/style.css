@@ -67,8 +67,7 @@ li h2:hover {
 
 /*Circle hero image and text */
 .hero-section {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 165px;
 }
 
 .hero-image {
@@ -86,6 +85,8 @@ li h2:hover {
 #hero-text-box {
     background-color: #b8973d;
     padding: 20px;
+    transform: translateY(135px);
+
 }
 
 /*Nav links*/
