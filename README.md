@@ -147,34 +147,31 @@
     # Deployment
     ## Deployment
     The project was deployed to GitHub Pages using the following steps...
-    * Log in to GitHub and locate the GitHub Repository
-    * At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    * Scroll down the Settings page until you locate the "Pages" Section.
-    * Under "Source", click the dropdown called "None" and select "Main Branch".
-    * The page will automatically refresh.
-    * Once the deployment process completed the published site's link will appear after the main title.
+    * Log in to GitHub and locate the GitHub Repository.
+    * Find the "Settings" button on the menu at the top of the repository
+    * Scroll down the Settings page until you reach the "Pages" section.
+    * In the "Source" section, click the dropdown labeled "None" and choose "Main Branch".
+    * The page will refresh automatically.
+    * Wait for the deployment process to complete.
     <br>
     <br>
     ## Forking
-    By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
-    * Log in to [GitHub](https://github.com/) and locate the repository
-    * At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-    * You should now have a copy of the original repository in your GitHub account.
+    To create a copy of an existing GitHub repository without affecting the original, we can fork the repository using these steps:
+    * Log in to your [GitHub](https://github.com/) account and navigate to the repository you want to fork.
+    * Click the "Fork" button at the top right of the repository page.
+    * You should now have a copy of the original repository in your GitHub account that you can view and make changes to without affecting the original.
     <br>
     <br>
     ## Clone
-    * Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-    * Under the repository name, click "Clone or download".
-    * To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-    * Open Git Bash
-    * Change the current working directory to the location where you want the cloned directory to be made.
-    * Type git clone, and then paste the URL you copied in Step 3.
-    * $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-    * Press Enter. Your local clone will be created.
-    * ```
-        $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-        ```
-    * Press Enter. Your local clone will be created.
+    Here are the steps to clone a GitHub repository:
+    * Log in to your [GitHub](https://github.com/) account and locate the repository you want to clone.
+    * Click the "Clone" button.
+    * Copy the HTTPS link shown under "Clone with HTTPS".
+    * Open Git Bash or another command-line interface.
+    * Navigate to the directory where you want to store the cloned repository.
+    * Type git clone and paste the URL you copied in Step 3. The command should look like this: git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.
+    * Press Enter to run the command.
+    * Wait for the cloning process to complete. A message like the following should appear in the console:
      * ```
         $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
         > Cloning into `CI-Clone`...
