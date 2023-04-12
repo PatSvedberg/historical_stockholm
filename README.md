@@ -27,12 +27,16 @@
     * [Lighthouse](#Lighthouse)
     * [Validators](#Validators)
 * [Features](#Features)
-     * [Header and Navigation](#Header-and-Navigation)
-     * [Footer](#Footer)
-     * [Index](#Index)
-     * [Map](#Maps)
-     * [Museums](#Museum)
-     * [Features Left to Implement](#Features-Left-to-Implement)
+    * [Header and Navigation](#Header-and-Navigation)
+    * [Footer](#Footer)
+    * [Index](#Index)
+    * [Map](#Maps)
+    * [Museums](#Museum)
+    * [Features Left to Implement](#Features-Left-to-Implement)
+* [Deployment](#Deployment)
+    * [Deployment](#Deployment)
+    * [Forking the GitHub Repository](#Forking)
+    * [Making a local clone](#Clone)
 * [Content](#Content)
     * [Content](#Inspirations)
     * [Media](#Media)
@@ -94,7 +98,7 @@
 
     * Managed to make the circle images and maps fit even with smaller sized screens.
 
-    ## validators:
+    ## Validators:
 
     * The HTML validator did not like that I didn't have a H2-H6 in the "< section >". So I changed to a "< div >" to make the validator warning go away.
      ![HTML validator error image](/assets/images/htmlerror.PNG "Image of HTML validator error")
@@ -115,29 +119,70 @@
      # Features
 
      ## Header and Navigation
-     * The header has links to the different pages and a logo made from a < h1 > that also links to the index page.
-           ![Image of Header](/assets/images/header-img-min.PNG "Image of Header")
-     ## Footer
-     * The footer has links to four different social media platforms (**Facebook**, **Twitter**, **Youtube** and **Instagram**)
-            ![Image of Footer](/assets/images/footer-img-min.PNG "Image of Footer")
-     ## Index
-     * The index page greets the user with a welcome text and picture of Stockholm inside a circular border. This design is consistent throughout the project. At the bottom of the page above the footer the contact information is located with a **Google Map** with the location.
-          ![Image of Index Page](/assets/images/index.PNG "Image of Index Page")
-          * **Contacts:** <br />
-                 ![Image of Header](/assets/images/contacts-img-min.PNG "Image of Header")
-     ## Maps
-     * Here the user can see places of interests around the city. They can also suggest new pins to be added to the map.
-     ![Image of Index Page](/assets/images/maps-img-min.PNG "Image of Index Page")
-     ## Museum
-     * Here there is a collection of museums to visit with a picture and a small text describing the museum.
-     ![Image of Index Page](/assets/images/museums-img-min.PNG "Image of Index Page")
-     <br />
-     ## Features Left to Implement:
-     * More interaction for the Google maps.
-     * For the form on the Map page. Being able to send input to an email.
-     * More info for the museums. Adresses, phone, email etc.
-     * Make a custom look for the scrolls.
-     <br />
+    * The header has links to the different pages and a logo made from a < h1 > that also links to the index page.
+    ![Image of Header](/assets/images/header-img-min.PNG "Image of Header")
+    ## Footer
+    * The footer has links to four different social media platforms (**Facebook**, **Twitter**, **Youtube** and **Instagram**)
+    ![Image of Footer](/assets/images/footer-img-min.PNG "Image of Footer")
+    ## Index
+    * The index page greets the user with a welcome text and picture of Stockholm inside a circular border. This design is consistent throughout the project. At the bottom of the page above the footer the contact information is located with a **Google Map** with the location.
+    ![Image of Index Page](/assets/images/index.PNG "Image of Index Page")
+    **Contacts:** <br />
+    ![Image of Header](/assets/images/contacts-img-min.PNG "Image of Header")
+    ## Maps
+    * Here the user can see places of interests around the city. They can also suggest new pins to be added to the map.
+    ![Image of Index Page](/assets/images/maps-img-min.PNG "Image of Index Page")
+    ## Museum
+    * Here there is a collection of museums to visit with a picture and a small text describing the museum.
+    ![Image of Index Page](/assets/images/museums-img-min.PNG "Image of Index Page")
+    <br />
+    ## Features Left to Implement:
+    * More interaction for the Google maps.
+    * For the form on the Map page. Being able to send input to an email.
+    * More info for the museums. Adresses, phone, email etc.
+    * Make a custom look for the scrolls.
+    <br>
+    <br>
+
+    # Deployment
+    ## Deployment
+    The project was deployed to GitHub Pages using the following steps...
+    * Log in to GitHub and locate the GitHub Repository
+    * At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    * Scroll down the Settings page until you locate the "Pages" Section.
+    * Under "Source", click the dropdown called "None" and select "Main Branch".
+    * The page will automatically refresh.
+    * Once the deployment process completed the published site's link will appear after the main title.
+    <br>
+    <br>
+    ## Forking
+    By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+    * Log in to [GitHub](https://github.com/) and locate the repository
+    * At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+    * You should now have a copy of the original repository in your GitHub account.
+    <br>
+    <br>
+    ## Clone
+    * Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+    * Under the repository name, click "Clone or download".
+    * To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+    * Open Git Bash
+    * Change the current working directory to the location where you want the cloned directory to be made.
+    * Type git clone, and then paste the URL you copied in Step 3.
+    * $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+    * Press Enter. Your local clone will be created.
+    * ```
+        $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+        ```
+    * Press Enter. Your local clone will be created.
+     * ```
+        $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+        > Cloning into `CI-Clone`...
+        > remote: Counting objects: 10, done.
+        > remote: Compressing objects: 100% (8/8), done.
+        > remove: Total 10 (delta 1), reused 10 (delta 1)
+        > Unpacking objects: 100% (10/10), done.
+        ```
 
     # Content
     ## Media:
