@@ -141,15 +141,19 @@
     ## Media:
     **NOTE! This page is for educational purposes only!**
 
-    * Background image: https://paraplytours.com/wp-content/uploads/2019/03/stockholm-under-kastanjen-cafe-1-1300x0.jpg <br />
-    * Hero image: https://www.kihousing.se/our-accommodation-areas/ <br />
-    * Livrustkammaren Image: https://melkerlarsson.files.wordpress.com/2015/01/livrustkammaren-rustningar.jpg?w=700 <br />
-    * Medeltidsmuseet Image: https://upload.wikimedia.org/wikipedia/commons/4/48/S%C3%B6_274%2C_Medeltidsmuseet.JPG <br />
-    * Vasamuseum Image: https://sv.wikipedia.org/wiki/Regalskeppet_Vasa#/media/Fil:Djurg%C3%A5rden,_%C3%96stermalm,_Stockholm,_Sweden_-_panoramio_(8).jpg <br />
-    * Nordiska museet Image: https://www.nordiskamuseet.se/sites/default/files/public/subject/nordiskamuseet-vackra-trad-host-insta_alexander_assal_low_webb.jpg
-    <br />
-    <br />
-    The social media icons were taken from [Font Awesome](https://fontawesome.com/)
+    * [Nordiska museet Image](https://www.nordiskamuseet.se/sites/default/files/public/subject/nordiskamuseet-vackra-trad-host-insta_alexander_assal_low_webb.jpg)
+
+    * [Background image](https://paraplytours.com/wp-content/uploads/2019/03/stockholm-under-kastanjen-cafe-1-1300x0.jpg)
+
+    * [Hero image](https://www.kihousing.se/our-accommodation-areas/)
+
+    * [Livrustkammaren Image](https://melkerlarsson.files.wordpress.com/2015/01/livrustkammaren-rustningar.jpg?w=700)
+
+    * [Medeltidsmuseet Image](https://upload.wikimedia.org/wikipedia/commons/4/48/S%C3%B6_274%2C_Medeltidsmuseet.JPG)
+
+    * [Vasamuseum Image](https://sv.wikipedia.org/wiki/Regalskeppet_Vasa#/media/Fil:Djurg%C3%A5rden,_%C3%96stermalm,_Stockholm,_Sweden_-_panoramio_(8).jpg)
+    * Favicon using [Favicon Generator](https://favicon.io/favicon-generator/)
+    * The social media icons were taken from [Font Awesome](https://fontawesome.com/)
     
     ## Inspirations:
     * The footer HTML-code was inspired from Code Institutes ”Love Running” project.
@@ -160,5 +164,7 @@
     ## Thanks to:
     ### Lauren-Nicole Popich
     * My mentor. For helpt end encouragement!
+
+    
 
 
