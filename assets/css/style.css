@@ -279,7 +279,7 @@ footer {
     align-items: start;
     bottom: 0;
     width: 100%;
-    height: 65px;
+    height: 5vh;
     border-top: 2px solid black;
 }
 
@@ -299,7 +299,7 @@ footer ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 /*Media queries*/
@@ -434,10 +434,10 @@ footer ul {
     .find-us-map {
         position: relative;
         overflow: hidden;
-        width: 40vw;
-        height: 40vw;
+        width: 90vw;
+        height: 45vw;
         border: #b8973d solid 10px;
-        border-radius: 50%;
+        border-radius: 0%;
         margin-bottom: 0px;
     }
 
