@@ -1,6 +1,8 @@
 # Historical Stockholm. Portfolio Project 1 by Patric Svedberg
 
 ### This project is my first portfolio piece. The goal was to create a webpage that aids in exploring Stockholm's history, catering to both residents and visitors. Google Maps were utilized to mark noteworthy locations and museums for visitors to explore. Additionally, a dedicated page was included for relevant museums with detailed information.
+
+# [Deployed site ](https://patsvedberg.github.io/historical_stockholm/)
 <br />
 <br />
 
