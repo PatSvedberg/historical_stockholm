@@ -109,18 +109,25 @@
         * **Resault**: Now the image scales the same on every screen size.
     <br>
     <br>
+
     ## Validators:
 
     * The HTML validator did not like that I didn't have a H2-H6 in the "< section >". So I changed to a "< div >" to make the validator warning go away.
+
     ![HTML validator error image](/assets/images/htmlerror.PNG "Image of HTML validator error")
     <br>
-    HTML validator:
+
+    ### HTML validator:
     <br>
+
     ![HTML validator image](/assets/images/html-valid.PNG "Image of HTML validator")
     <br>
-    * CSS validator
+
+    ### CSS validator
     <br>
+
     ![CSS validator image](/assets/images/css-valid.PNG "Image of CSS validator")
+    <br>
 
     ## Lighthouse
 
