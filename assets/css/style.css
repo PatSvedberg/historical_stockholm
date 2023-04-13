@@ -90,6 +90,11 @@ li h2:hover {
     transform: translateY(135px);
 }
 
+/*Images*/
+img {
+    height: 100%;
+}
+
 /*Nav links*/
 
 a:link {
@@ -268,6 +273,7 @@ input[type=submit] {
     width: 100%;
     height: 100%;
 }
+
 /*Thank you message container*/
 .thanks-container {
     display: flex;
@@ -283,6 +289,7 @@ input[type=submit] {
     flex-direction: column;
     border: 4px solid black;
 }
+
 /*404 message container*/
 .pagenotfound-container {
     display: flex;

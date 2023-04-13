@@ -24,6 +24,7 @@
     * [Languages Used](#Languages-used)
 * [Testing](#Testing)
     * [Notes](#Notes)
+    * [Bugs](#Bugs)
     * [Lighthouse](#Lighthouse)
     * [Validators](#Validators)
 * [Features](#Features)
@@ -98,6 +99,11 @@
 
     * Managed to make the circle images and maps fit even with smaller sized screens.
 
+    ## Bugs:
+
+    * 
+
+
     ## Validators:
 
     * The HTML validator did not like that I didn't have a H2-H6 in the "< section >". So I changed to a "< div >" to make the validator warning go away.
@@ -118,7 +124,8 @@
     <br />
      # Features
 
-     ## Header and Navigation
+    ## Header and Navigation:
+
     * The header has links to the different pages and a logo made from a < h1 > that also links to the index page.
     ![Image of Header](/assets/images/header-img-min.PNG "Image of Header")
     ## Footer
@@ -144,8 +151,10 @@
     <br>
     <br>
 
-    # Deployment
+    # Deployment:
+
     ## Deployment
+
     The project was deployed to GitHub Pages using the following steps...
     * Log in to GitHub and locate the GitHub Repository.
     * Find the "Settings" button on the menu at the top of the repository
@@ -155,13 +164,16 @@
     * Wait for the deployment process to complete.
     <br>
     <br>
+
     ## Forking
+
     To create a copy of an existing GitHub repository without affecting the original, we can fork the repository using these steps:
     * Log in to your [GitHub](https://github.com/) account and navigate to the repository you want to fork.
     * Click the "Fork" button at the top right of the repository page.
     * You should now have a copy of the original repository in your GitHub account that you can view and make changes to without affecting the original.
     <br>
     <br>
+
     ## Clone
     Here are the steps to clone a GitHub repository:
     * Log in to your [GitHub](https://github.com/) account and locate the repository you want to clone.
@@ -172,14 +184,15 @@
     * Type git clone and paste the URL you copied in Step 3. The command should look like this: git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.
     * Press Enter to run the command.
     * Wait for the cloning process to complete. A message like the following should appear in the console:
-     * ```
+     * 
+    ```
         $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
         > Cloning into `CI-Clone`...
         > remote: Counting objects: 10, done.
         > remote: Compressing objects: 100% (8/8), done.
         > remove: Total 10 (delta 1), reused 10 (delta 1)
         > Unpacking objects: 100% (10/10), done.
-        ```
+    ```
 
     # Content
     ## Media:
