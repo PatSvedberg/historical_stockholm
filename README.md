@@ -107,27 +107,28 @@
         * **Testing**: In the Chrome Developer Tool, I changed the screen size up and down.
         * **FIX**: In the CSS I added a height: 100% to the image.
         * **Resault**: Now the image scales the same on every screen size.
-        <br>
-        <br>
+    <br>
+    <br>
     ## Validators:
 
     * The HTML validator did not like that I didn't have a H2-H6 in the "< section >". So I changed to a "< div >" to make the validator warning go away.
-     ![HTML validator error image](/assets/images/htmlerror.PNG "Image of HTML validator error")
-     <br>
-     HTML validator:
-     <br>
-     ![HTML validator image](/assets/images/html-valid.PNG "Image of HTML validator")
-     <br>
-     * CSS validator
-     <br>
-     ![CSS validator image](/assets/images/css-valid.PNG "Image of CSS validator")
+    ![HTML validator error image](/assets/images/htmlerror.PNG "Image of HTML validator error")
+    <br>
+    HTML validator:
+    <br>
+    ![HTML validator image](/assets/images/html-valid.PNG "Image of HTML validator")
+    <br>
+    * CSS validator
+    <br>
+    ![CSS validator image](/assets/images/css-valid.PNG "Image of CSS validator")
 
-     ## Lighthouse
+    ## Lighthouse
 
-     ![Image of Lighthouse score](/assets/images/lighthouse.PNG "Image of Lighthouse score")
+    ![Image of Lighthouse score](/assets/images/lighthouse.PNG "Image of Lighthouse score")
     <br />
     <br />
-     # Features
+
+    # Features
 
     ## Header and Navigation:
 
@@ -147,8 +148,10 @@
     ## Museum
     * Here there is a collection of museums to visit with a picture and a small text describing the museum.
     ![Image of Index Page](/assets/images/museums-img-min.PNG "Image of Index Page")
-    <br />
+    <br>
+
     ## Features Left to Implement:
+
     * More interaction for the Google maps.
     * For the form on the Map page. Being able to send input to an email.
     * More info for the museums. Adresses, phone, email etc.
