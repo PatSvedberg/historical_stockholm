@@ -101,9 +101,14 @@
 
     ## Bugs:
 
-    * 
+    ### About page:
 
-
+    * **Expected**: Hero image does not scale and look the same on every screen size:
+        * **Testing**: In the Chrome Developer Tool, I changed the screen size up and down.
+        * **FIX**: In the CSS I added a height: 100% to the image.
+        * **Resault**: Now the image scales the same on every screen size.
+        <br>
+        <br>
     ## Validators:
 
     * The HTML validator did not like that I didn't have a H2-H6 in the "< section >". So I changed to a "< div >" to make the validator warning go away.
