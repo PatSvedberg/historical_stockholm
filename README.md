@@ -2,7 +2,9 @@
 
 ### This project is my first portfolio piece. The goal was to create a webpage that aids in exploring Stockholm's history, catering to both residents and visitors. Google Maps were utilized to mark noteworthy locations and museums for visitors to explore. Additionally, a dedicated page was included for relevant museums with detailed information.
 
-# [Deployed site ](https://patsvedberg.github.io/historical_stockholm/)
+## [Link to deployed site ](https://patsvedberg.github.io/historical_stockholm/)
+
+
 <br />
 <br />
 
@@ -107,13 +109,13 @@
     * **Expected**: Hero image does not scale and look the same on every screen size:
         * **Testing**: In the Chrome Developer Tool, I changed the screen size up and down.
         * **FIX**: In the CSS I added a height: 100% to the image.
-        * **Resault**: Now the image scales the same on every screen size.
+        * **Result**: Now the image scales the same on every screen size.
     <br>
     <br>
-    * **Expected**: On my mentors sreen. Header text not scaling correcly and spils outside it in a 20px range (477-466px screen size):
+    * **Expected**: On my mentor's screen. Header text not scaling correctly and spills outside it in a 20px range (477-466 px screen size):
         * **Testing**: In the Chrome Developer Tool, I changed the screen size up and down. But I was not able to replicate it. I suspect it is because of a plug in on her browser.
         * **FIX**: Was not able to fix it since I can't replicate it
-        * **Resault**: The bug might still be there for those with some Dev Tool plugins but for most people it should work as intended.
+        * **Result**: The bug might still be there for those with some Dev Tool plugins but for most people it should work as intended.
 
     ## Validators:
 
@@ -166,7 +168,7 @@
 
     * More interaction for the Google maps.
     * For the form on the Map page. Being able to send input to an email.
-    * More info for the museums. Adresses, phone, email etc.
+    * More info for the museums. Addresses, phone, email etc.
     * Make a custom look for the scrolls.
     <br>
     <br>
@@ -217,9 +219,14 @@
     ## Push
     1. Navigate to your local Git repository on your computer using your terminal or command prompt.
     2. Make sure you are on the correct branch by running the command: `git branch`. If you're not on the correct branch, you can switch to it using: `git checkout <"branch-name">`.
-    3. Next, add the changes you have made to the file to the Git staging area using the command: git add <"filename">, or `git add .` to commit all files. This will prepare the changes for committing.
+    3. Next, add the changes you have made to the file to the Git staging area using the command: `git add <"filename">`, or `git add .` to commit all files. This will prepare the changes for committing.
     4. Commit the changes to the repository using the command: `git commit -m "Commit message"`.
     5. Push the changes to the remote repository using the command: `git push`. This will update the file on the remote repository, making your changes available to others.
+    <br>
+    <br>
+
+    ## [Link to deployed site ](https://patsvedberg.github.io/historical_stockholm/)
+    <br>
 
 
     # Content
@@ -248,7 +255,7 @@
 
     ## Thanks to:
     ### Lauren-Nicole Popich
-    * My mentor. For helpt end encouragement!
+    * My mentor. For help and encouragement!
 
     
 
