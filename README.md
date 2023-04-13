@@ -38,6 +38,7 @@
     * [Deployment](#Deployment)
     * [Forking the GitHub Repository](#Forking)
     * [Making a local clone](#Clone)
+    * [Push](#Push)
 * [Content](#Content)
     * [Content](#Inspirations)
     * [Media](#Media)
@@ -109,6 +110,10 @@
         * **Resault**: Now the image scales the same on every screen size.
     <br>
     <br>
+    * **Expected**: On my mentors sreen. Header text not scaling correcly and spils outside it in a 20px range (477-466px screen size):
+        * **Testing**: In the Chrome Developer Tool, I changed the screen size up and down. But I was not able to replicate it. I suspect it is because of a plug in on her browser.
+        * **FIX**: Was not able to fix it since I can't replicate it
+        * **Resault**: The bug might still be there for those with some Dev Tool plugins but for most people it should work as intended.
 
     ## Validators:
 
@@ -171,35 +176,35 @@
     ## Deployment
 
     The project was deployed to GitHub Pages using the following steps...
-    * Log in to GitHub and locate the GitHub Repository.
-    * Find the "Settings" button on the menu at the top of the repository
-    * Scroll down the Settings page until you reach the "Pages" section.
-    * In the "Source" section, click the dropdown labeled "None" and choose "Main Branch".
-    * The page will refresh automatically.
-    * Wait for the deployment process to complete.
+    1. Log in to GitHub and locate the GitHub Repository.
+    2. Find the "Settings" button on the menu at the top of the repository
+    3. Scroll down the Settings page until you reach the "Pages" section.
+    4. In the "Source" section, click the dropdown labeled "None" and choose "Main Branch".
+    5. The page will refresh automatically.
+    6. Wait for the deployment process to complete.
     <br>
     <br>
 
     ## Forking
 
     To create a copy of an existing GitHub repository without affecting the original, we can fork the repository using these steps:
-    * Log in to your [GitHub](https://github.com/) account and navigate to the repository you want to fork.
-    * Click the "Fork" button at the top right of the repository page.
-    * You should now have a copy of the original repository in your GitHub account that you can view and make changes to without affecting the original.
+    1. Log in to your [GitHub](https://github.com/) account and navigate to the repository you want to fork.
+    2. Click the "Fork" button at the top right of the repository page.
+    3. You should now have a copy of the original repository in your GitHub account that you can view and make changes to without affecting the original.
     <br>
     <br>
 
     ## Clone
     Here are the steps to clone a GitHub repository:
-    * Log in to your [GitHub](https://github.com/) account and locate the repository you want to clone.
-    * Click the "Clone" button.
-    * Copy the HTTPS link shown under "Clone with HTTPS".
-    * Open Git Bash or another command-line interface.
-    * Navigate to the directory where you want to store the cloned repository.
-    * Type git clone and paste the URL you copied in Step 3. The command should look like this: git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.
-    * Press Enter to run the command.
-    * Wait for the cloning process to complete. A message like the following should appear in the console:
-     * 
+    1. Log in to your [GitHub](https://github.com/) account and locate the repository you want to clone.
+    2. Click the "Clone" button.
+    3. Copy the HTTPS link shown under "Clone with HTTPS".
+    4. Open Git Bash or another command-line interface.
+    5. Navigate to the directory where you want to store the cloned repository.
+    6. Type git clone and paste the URL you copied in Step 3. The command should look like this: git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.
+    7. Press Enter to run the command.
+    8. Wait for the cloning process to complete. A message like the following should appear in the console:
+
     ```
         $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
         > Cloning into `CI-Clone`...
@@ -208,6 +213,14 @@
         > remove: Total 10 (delta 1), reused 10 (delta 1)
         > Unpacking objects: 100% (10/10), done.
     ```
+
+    ## Push
+    1. Navigate to your local Git repository on your computer using your terminal or command prompt.
+    2. Make sure you are on the correct branch by running the command: `git branch`. If you're not on the correct branch, you can switch to it using: `git checkout <"branch-name">`.
+    3. Next, add the changes you have made to the file to the Git staging area using the command: git add <"filename">, or `git add .` to commit all files. This will prepare the changes for committing.
+    4. Commit the changes to the repository using the command: `git commit -m "Commit message"`.
+    5. Push the changes to the remote repository using the command: `git push`. This will update the file on the remote repository, making your changes available to others.
+
 
     # Content
     ## Media:
